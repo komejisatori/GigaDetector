@@ -1,0 +1,13 @@
+*.pth
+.idea
+*.jpg
+*.mp4
+.build
+mmdetection
+mAP
+data/frame/*
+!data/frame/*.py
+work_dirs
+*.npy
+*.xml
+__pycache__
