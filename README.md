@@ -36,8 +36,8 @@ This is the code of detection part in [Panda: A gigapixel-level human-centric vi
         - retinanet_101_FPN.py
     - make sure the class numbers is 2, you can search the word 'num_classes' in each script
     - make sure the dataset path is correct
+    
  - provide a train script to [ROOT]/train
-    -
     - we use scripts for 3 models above, 1 and 2 are provided, try to make the retinanet script
     - set a specific gpu by add os.environ["CUDA_VISIBLE_DEVICES"] = [GPU_ID]
     - run the train script, TMUX suggested by 'tmux new -s giga_train'
