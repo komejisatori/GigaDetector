@@ -2,7 +2,7 @@
 
 ## introduction
 
-a detector for large frames
+This is the code of detection part in [Panda: A gigapixel-level human-centric video dataset](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_PANDA_A_Gigapixel-Level_Human-Centric_Video_Dataset_CVPR_2020_paper.pdf)
 
 ## installation
 
@@ -14,7 +14,6 @@ a detector for large frames
 
 ## BEFORE USING
 - you should install matlabR2019 first for drawing LAMR curves
-https://blog.csdn.net/elgong/article/details/82931416
 - you should clone mAP and voc2coco repo to [TODO]
 
 ## TRAIN
@@ -42,10 +41,6 @@ https://blog.csdn.net/elgong/article/details/82931416
     - we use scripts for 3 models above, 1 and 2 are provided, try to make the retinanet script
     - set a specific gpu by add os.environ["CUDA_VISIBLE_DEVICES"] = [GPU_ID]
     - run the train script, TMUX suggested by 'tmux new -s giga_train'
-
-## dataset
-
-## run
 
 
 
